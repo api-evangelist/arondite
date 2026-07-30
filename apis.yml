@@ -1,8 +1,28 @@
 aid: arondite
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arondite.png
 name: Arondite
-description: 'Arondite is a company surfaced as a portfolio company of index-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Arondite is a defence technology company building Cobalt, a defence software
+  platform for accelerated decision making that orchestrates missions and manages
+  operational intelligence. Cobalt brings together sighting reports, real-time notifications
+  and alerts, mapping and visualisation, task management and kanban workflows, and
+  observation and monitoring tools to support complex military and defence operations
+  across use cases including Hybrid Navy, C-UAS, Recce-Strike, and Site Security.
+  Arondite combines operational and technical expertise to deliver technology with
+  immediate, real-world impact on a global scale. It was surfaced as a portfolio company
+  of Index Ventures. Arondite does not currently publish a public API, developer portal,
+  SDK, or documentation surface, so this profile captures its identity and probed
+  domain-security posture rather than API artifacts.'
 url: https://raw.githubusercontent.com/api-evangelist/arondite/refs/heads/main/apis.yml
 x-type: company
 x-source: index-ventures-portfolio
@@ -10,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Ai Ml
+- Defense
+- Defence Technology
+- Military
+- Situational Awareness
+- Mission Orchestration
+- Decision Support
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +48,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://arondite.com
+  url: https://arondite.com
+- type: Blog
+  url: https://arondite.com/newsroom
+- type: Support
+  url: https://arondite.com/contact
+- type: PrivacyPolicy
+  url: https://arondite.com/privacy-policy
+- type: DomainSecurity
+  url: security/arondite-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
